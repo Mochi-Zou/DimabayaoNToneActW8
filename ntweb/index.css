@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://c4.wallpaperflare.com/wallpaper/658/804/885/action-adventure-amazing-comics-wallpaper-preview.jpg') no-repeat center center/cover;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 30px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);  
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+.options-row {
+  font-size: 0.9rem;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.form-check-input {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.forgot-link, .register-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forgot-link:hover, .register-link:hover {
+  text-decoration: underline;
+}
+
+.btn-login {
+  background-color: #ffffff;
+  color: #333333;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #000000;
+}
+
+.register-text {
+  font-size: 0.9rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
